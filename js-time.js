@@ -89,12 +89,12 @@ function SecondUpdate() {
 
 function checkActualTimeClass(){
 	var d = new Date;
-	if($(".jt-time").attr("jt-update") == 'true')
+	if($(".jt-time").attr("jt-update") == "true")
 		setTimeout(checkActualTimeClass, 1000);
 	$(".jt-time").html(d.toLocaleTimeString());
 };
 
-function checkHoursClass(value) {
+function checkHoursClass() {
 	var attrupdate = $(".jt-hour").attr("jt-update");
 	var d = new Date, hours = d.getHours();
 	$(".jt-hour").html(formatDateNumber(hours));
@@ -102,7 +102,7 @@ function checkHoursClass(value) {
 		setTimeout(checkHoursClass, 1000);
 }
 
-function checkMinutesClass(value) {
+function checkMinutesClass() {
 	var attrupdate = $(".jt-minute").attr("jt-update");
 	var d = new Date, minutes = d.getMinutes();
 	$(".jt-minute").html(formatDateNumber(minutes));
@@ -110,7 +110,7 @@ function checkMinutesClass(value) {
 		setTimeout(checkMinutesClass, 1000);
 }
 
-function checkSecondsClass(value) {
+function checkSecondsClass() {
 	var attrupdate = $(".jt-second").attr("jt-update");
 	var d = new Date, seconds = d.getSeconds();
 	$(".jt-second").html(formatDateNumber(seconds));
