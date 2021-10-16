@@ -33,7 +33,7 @@ All classes from date group you can see below:
 ```HTML
 <div class="jt-date">DD-MN-YYYY</div>
 <div class="jt-date">YYYY/MM/DD</div>
-<div class="jt-date"DD MN YYYY</div>
+<div class="jt-date">DD MN YYYY</div>
 ```
 # Block elements VS text elements.
 > Basically, it doesn't matter what tags you use to enjoying JS-Time. It depends on your intentions. Try to use block elements ``<div></div>`` or text elements ``<span></span>``.
