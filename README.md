@@ -10,5 +10,8 @@ The secret is based on the use of classes in the HTML file. This library working
 **JS-Time** has a lot of classes defined that refer to dates and times. Currently, script have two groups (date and time). Each of them have a few classes.
 > All classes from time group youcan see below:
 ```HTML
-<div class="jt-time" jt-update="true"></div>
+<div class="jt-time"></div>
+<div class="jt-hour"></div>
+<div class="jt-minute"></div>
+<div class="jt-second"></div>
 ```
