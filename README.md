@@ -31,6 +31,7 @@ All classes from time group you can see below:
 <div class="jt-second" jt-update="true"></div>
 ```
 > As you probably noticed, there's a new attribute in the div tag. **jt-update** is used to check if you want to update given class. Notice: This atributte working only with time group.
+> Changing the value to false will stop all clocks for the class used!
 
 All classes from date group you can see below:
 ```HTML
