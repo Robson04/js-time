@@ -56,3 +56,4 @@ All classes from date group you can see below:
 <div class="jt-time" jt-update="true"></div>
 <span class="jt-date">DD-MM-YYYY</span>
 ```
+[Look for example ussage](example)
