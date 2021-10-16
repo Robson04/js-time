@@ -4,7 +4,7 @@
 
 ## Let's start with how exactly does it work?
 The secret is based on the use of classes in the HTML file. This library working just like **bootstrap.**
-> When you add **JS-Time** defined class to your HTML tag *(you can use div, span)* the script locates all overwritten tags and changes their content to valid date or time. Thanks to this, you won't have to execute JS on your side.
+> When you add **JS-Time** defined class to your HTML tag ``<div> or <span>`` the script locates all overwritten tags and changes their content to valid date or time. Thanks to this, you won't have to execute JS on your side.
 
 ## What classes can I use?
 **JS-Time** has a lot of classes defined that refer to dates and times. Currently, script have two groups (date and time). Each of them have a few classes.
@@ -28,8 +28,8 @@ All classes from date group you can see below:
 <div class="jt-day"></div>
 ```
 > All classes in this group work with no content except **jt-date**. This class requires data format in content. You can apply any format with the appropiate date parametrs.
-> In **jt-date** class you can also replace the number of the mounth to month name using **MN** parameter.
-+ Valid format: (DD MM YYYY) - or MN in the case for the month name:
+> In **jt-date** class you can also replace the number of the mounth to month name using ``MN`` parameter.
++ Valid format: ``DD MM YYYY`` - or MN in the case for the month name:
 ```HTML
 <div class="jt-date">DD-MN-YYYY</div>
 <div class="jt-date">YYYY/MM/DD</div>
