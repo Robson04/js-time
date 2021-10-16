@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script type="text/javascript" src="js-time.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/js-time.css" />
+	</head>
+	
+	<body>
+		<div id="container">
+			<!-- Group Time -->
+			<div id="grouptime">
+				<div class="jt-time" jt-update="false"></div> <!-- Setting jt-update to falsely stop all counters with the jt-time class. -->
+				<span class="jt-hour" jt-update="true"></span>
+				<span class="jt-minute" jt-update="true"></span>
+				<span class="jt-second" jt-update="true"></span>
+			</div>
+			
+			<hr />
+
+			<!-- Group Dates -->
+			<div class="jt-date">YYYY/MM/DD</div>
+			<div id="datetext">
+				Today is <span class="jt-day"></span> <span class="jt-month-name"></span> <span class="jt-year"></span>
+			</div>
+			<!-- Joining multiple groups in one stack -->
+			<i><div class="jt-time" jt-update="true"></div></i>
+		</div>
+	</body>
+</html>

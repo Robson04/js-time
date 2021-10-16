@@ -1,0 +1,27 @@
+body {
+	background-color: #333;
+	font-size: 92px;
+	font-family: 'Arial';
+	font-weight: bold;
+}
+
+#container {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: white;
+}
+
+#grouptime {
+	color: #111;
+	text-shadow: 4px 4px 2px rgba(255, 255, 255, 1);
+}
+
+#datetext {
+	font-size: 42px;
+}
+
+i {
+	font-size: 28px;
+}
