@@ -4,4 +4,7 @@
 
 ## Let's start with how exactly does it work?
 The secret is based on the use of classes in the HTML file. This library working just like **bootstrap.**
-> When you add **js-time** defined class to your HTML tag *(you can use div, span)* the script locates all overwritten tags and changes their content to valid date or time. Thanks to this, you won't have to execute JS on your side.
+> When you add **JS-Time** defined class to your HTML tag *(you can use div, span)* the script locates all overwritten tags and changes their content to valid date or time. Thanks to this, you won't have to execute JS on your side.
+
+## What classes can I use?
+**JS-Time** has a lot of classes defined that refer to dates and times. Currently, script have two groups (date and time). Each of them have a few classes.
