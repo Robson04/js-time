@@ -8,10 +8,12 @@ The secret is based on the use of classes in the HTML file. This library working
 
 ## What classes can I use?
 **JS-Time** has a lot of classes defined that refer to dates and times. Currently, script have two groups (date and time). Each of them have a few classes.
-> All classes from time group youcan see below:
+All classes from time group youcan see below:
 ```HTML
 <div class="jt-time" jt-update="true"></div>
 <div class="jt-hour" jt-update="true"></div>
 <div class="jt-minute" jt-update="true"></div>
 <div class="jt-second" jt-update="true"></div>
 ```
+> As you probably noticed, there's a new attribute in the div tag. **jt-update** is used to check if you want to update given class. Notice: This atributte working only with time group.
+
