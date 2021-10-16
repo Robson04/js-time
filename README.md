@@ -7,7 +7,7 @@ The secret is based on the use of classes in the HTML file. This library working
 > When you add ``JS-Time`` defined class to your HTML tag ``<div> or <span>`` the script locates all overwritten tags and changes their content to valid date or time. Thanks to this, you won't have to execute JS on your side.
 
 ## Adding a library to your project.
-The first thing you need to start is to add to a ``jQuery`` to your project. ``JS-Time`` requires this library, in short it is a library to facilitate the work of developers in JavaScript.
+The first thing you need to start is to add to a ``jQuery`` to your project. ``JS-Time`` requires this library. In short it is a library to facilitate the work of developers in JavaScript.
 ```HTML
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 ```
