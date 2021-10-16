@@ -18,3 +18,13 @@ All classes from time group you can see below:
 ```
 > As you probably noticed, there's a new attribute in the div tag. **jt-update** is used to check if you want to update given class. Notice: This atributte working only with time group.
 
+All classes from date group you can see below:
+```HTML
+<div class="jt-date">DD-MM-YYYY</div>
+
+<div class="jt-year"></div>
+<div class="jt-month"></div>
+<div class="jt-month-name"></div>
+<div class="jt-day"></div>
+```
+
