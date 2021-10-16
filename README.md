@@ -6,6 +6,12 @@
 The secret is based on the use of classes in the HTML file. This library working just like **bootstrap.**
 > When you add **JS-Time** defined class to your HTML tag ``<div> or <span>`` the script locates all overwritten tags and changes their content to valid date or time. Thanks to this, you won't have to execute JS on your side.
 
+# Adding a library to your project.
+```HTML
+<!-- Please indicate the correct path to the script file. -->
+<script type="text/javascript" src="js-time.js"></script>
+```
+  
 ## What classes can I use? 
 **JS-Time** has a lot of classes defined that refer to dates and times. Currently, script have two groups (date and time). Each of them have a few classes.
 
