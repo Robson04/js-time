@@ -1,2 +1,1 @@
-# js-time
-Dates &amp; Time updates using only HTML!
+# ⌚ Dynamic dates & time using only HTML.
