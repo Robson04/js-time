@@ -29,8 +29,9 @@ All classes from date group you can see below:
 ```
 > All classes in this group work with no content except **jt-date**. This class requires data format in content. You can apply any format with the appropiate date parametrs.
 > In **jt-date** class you can also replace the number of the mounth to month name using **MN** parameter.
-+ Example:
++ Valid format: (DD MM YYYY) - or MN in the case for the month name:
 ```HTML
 <div class="jt-date">DD-MN-YYYY</div>
-<div class="jt-date">YYYY-MM-DD</div>
+<div class="jt-date">YYYY/MM/DD</div>
+<div class="jt-date"DD MN YYYY</div>
 ```
