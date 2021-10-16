@@ -16,7 +16,7 @@ The first thing you need to start is to add to a ``jQuery`` to your project. ``J
 And now, you can include ``JS-Time``.
 ```HTML
 <!-- Please indicate the correct path to the script file. -->
-<script type="text/javascript" src="js-time.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/Robson04/js-time/main/js-time.js"></script>
 ```
 > I recommend loading both libraries in the head section ``<head></head>``.
   
