@@ -35,3 +35,4 @@ All classes from date group you can see below:
 <div class="jt-date">YYYY/MM/DD</div>
 <div class="jt-date"DD MN YYYY</div>
 ```
+#Block elements VS text elements.
