@@ -1,1 +1,1 @@
-# ⌚ Dynamic dates & time using only HTML.
+# ⌚ Dynamic dates & time using only HTML! ⌚
