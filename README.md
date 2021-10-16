@@ -8,3 +8,15 @@ The secret is based on the use of classes in the HTML file. This library working
 
 ## What classes can I use?
 **JS-Time** has a lot of classes defined that refer to dates and times. Currently, script have two groups (date and time). Each of them have a few classes.
+> All classes you can see below:
+1. Due to the time:
+  - jt-time
+  - jt-hour
+  - jt-minute
+  - jt-second
+2. Due to the date:
+  - jt-date
+  - jt-year
+  - jt-month
+  - jt-month-name
+  - jt-day
